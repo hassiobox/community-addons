@@ -56,3 +56,14 @@ jobs:
 
       - name: Timestamp
         run: date
+
+      - name: Mirror the Github organization repos to Gitee.
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/hassiobox
+          dst: gitee/hassiozh
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token: ${{ secrets.GITEE_TOKEN }}
+          account_type: org
+          # src_account_type: org
+          # dst_account_type: org
