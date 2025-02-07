@@ -1,15 +1,16 @@
 ## What’s changed
 
+## 🚨 Breaking changes
+
+- Drop support for i386 @frenck ([#249](https://github.com/hassio-addons/addon-spotify-connect/pull/249))
+
 ## 🧰 Maintenance
 
-- Add Renovate for dependency management @frenck ([#210](https://github.com/hassio-addons/addon-spotify-connect/pull/210))
+- Move coc and contributing to .github folder @frenck ([#247](https://github.com/hassio-addons/addon-spotify-connect/pull/247))
+- 🎆 Updates maintenance/license year to 2024 @frenck ([#255](https://github.com/hassio-addons/addon-spotify-connect/pull/255))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#211](https://github.com/hassio-addons/addon-spotify-connect/pull/211))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#213](https://github.com/hassio-addons/addon-spotify-connect/pull/213))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#214](https://github.com/hassio-addons/addon-spotify-connect/pull/214))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#215](https://github.com/hassio-addons/addon-spotify-connect/pull/215))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#217](https://github.com/hassio-addons/addon-spotify-connect/pull/217))
-- ⬆️ Update alpine_3_17/git to v2.38.5-r0 @renovate ([#218](https://github.com/hassio-addons/addon-spotify-connect/pull/218))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#221](https://github.com/hassio-addons/addon-spotify-connect/pull/221))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.1 @renovate ([#248](https://github.com/hassio-addons/addon-spotify-connect/pull/248))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.2 @renovate ([#250](https://github.com/hassio-addons/addon-spotify-connect/pull/250))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14.3.3 @renovate ([#252](https://github.com/hassio-addons/addon-spotify-connect/pull/252))

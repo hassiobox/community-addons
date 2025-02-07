@@ -1,15 +1,10 @@
 ## What’s changed
 
-## ✨ New features
-
-- Add port configuration for backup and restore @frenck ([#287](https://github.com/hassio-addons/addon-influxdb/pull/287))
-
-## 📚 Documentation
-
-- Fix broken URL @wrt54g ([#279](https://github.com/hassio-addons/addon-influxdb/pull/279))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update Add-on base image to v6.2.5 @renovate ([#280](https://github.com/hassio-addons/addon-influxdb/pull/280))
-- ⬆️ Update Add-on base image to v6.2.6 @renovate ([#282](https://github.com/hassio-addons/addon-influxdb/pull/282))
-- ⬆️ Update Add-on base image to v6.2.7 @renovate ([#284](https://github.com/hassio-addons/addon-influxdb/pull/284))
+- ⬆️ Update Add-on base image to v7.3.3 @renovate ([#319](https://github.com/hassio-addons/addon-influxdb/pull/319))
+- ⬆️ Update Add-on base image to v7.3.4 @renovate ([#337](https://github.com/hassio-addons/addon-influxdb/pull/337))
+- ⬆️ Update Add-on base image to v7.3.5 @renovate ([#341](https://github.com/hassio-addons/addon-influxdb/pull/341))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base/aarch64 Docker tag to v7.3.5 @renovate ([#342](https://github.com/hassio-addons/addon-influxdb/pull/342))
+- ⬆️ Update Add-on base image to v7.4.0 @renovate ([#345](https://github.com/hassio-addons/addon-influxdb/pull/345))
+- ⬆️ Update Add-on base image to v7.5.0 @renovate ([#350](https://github.com/hassio-addons/addon-influxdb/pull/350))

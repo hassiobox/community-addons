@@ -1,14 +1,10 @@
 ## What’s changed
 
-## 🧰 Maintenance
-
-- Add Renovate for dependency management @frenck ([#123](https://github.com/hassio-addons/addon-chrony/pull/123))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.4 @renovate ([#124](https://github.com/hassio-addons/addon-chrony/pull/124))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#126](https://github.com/hassio-addons/addon-chrony/pull/126))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#127](https://github.com/hassio-addons/addon-chrony/pull/127))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#129](https://github.com/hassio-addons/addon-chrony/pull/129))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#130](https://github.com/hassio-addons/addon-chrony/pull/130))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#131](https://github.com/hassio-addons/addon-chrony/pull/131))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.3 @renovate ([#178](https://github.com/hassio-addons/addon-chrony/pull/178))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.4 @renovate ([#179](https://github.com/hassio-addons/addon-chrony/pull/179))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.5 @renovate ([#180](https://github.com/hassio-addons/addon-chrony/pull/180))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 @renovate ([#181](https://github.com/hassio-addons/addon-chrony/pull/181))
+- Migrate renovate config @renovate ([#182](https://github.com/hassio-addons/addon-chrony/pull/182))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#183](https://github.com/hassio-addons/addon-chrony/pull/183))

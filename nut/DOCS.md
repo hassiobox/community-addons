@@ -143,6 +143,16 @@ specific drivers.
 This is the serial port where the UPS is connected. The first serial port
 usually is `/dev/ttyS0`. Use `auto` to automatically detect the port.
 
+#### Sub-option: `powervalue`
+
+Optionally lets you set whether this particular UPS provides power to the
+device this add-on is running on. Useful if you have multiple UPS that you
+wish to monitor, but you don't want low battery on some of them to shut down
+this host. Acceptable values are `1` for "providing power to this host" or `0`
+for "monitor only". Defaults to `1`
+
+**Note**: _There must be a minimum of one attached device with powervalue `1`_
+
 #### Sub-option: `config`
 
 A list of additional [options][ups-fields] to configure for this UPS. The common
@@ -334,7 +344,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2023 Dale Higgs
+Copyright (c) 2018-2024 Dale Higgs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

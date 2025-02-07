@@ -1,14 +1,11 @@
 ## What’s changed
 
-## 🐛 Bug fixes
-
-- Fix Python site-packages location @frenck ([#247](https://github.com/hassio-addons/addon-sqlite-web/pull/247))
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.1.5 @renovate ([#239](https://github.com/hassio-addons/addon-sqlite-web/pull/239))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.0 @renovate ([#240](https://github.com/hassio-addons/addon-sqlite-web/pull/240))
-- ⬆️ Update alpine_3_17/python3 to v3.10.11-r0 @renovate ([#241](https://github.com/hassio-addons/addon-sqlite-web/pull/241))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.1 @renovate ([#244](https://github.com/hassio-addons/addon-sqlite-web/pull/244))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v13.2.2 @renovate ([#245](https://github.com/hassio-addons/addon-sqlite-web/pull/245))
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#246](https://github.com/hassio-addons/addon-sqlite-web/pull/246))
+- ⬆️ Update alpine_3_20/python3 to v3.12.7-r0 @renovate ([#331](https://github.com/hassio-addons/addon-sqlite-web/pull/331))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.3 @renovate ([#332](https://github.com/hassio-addons/addon-sqlite-web/pull/332))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.4 @renovate ([#333](https://github.com/hassio-addons/addon-sqlite-web/pull/333))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.5 @renovate ([#334](https://github.com/hassio-addons/addon-sqlite-web/pull/334))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v16.3.6 @renovate ([#335](https://github.com/hassio-addons/addon-sqlite-web/pull/335))
+- ⬆️ Update alpine_3_20/python3 to v3.12.8-r0 @renovate ([#336](https://github.com/hassio-addons/addon-sqlite-web/pull/336))
+- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v17 @renovate ([#337](https://github.com/hassio-addons/addon-sqlite-web/pull/337))

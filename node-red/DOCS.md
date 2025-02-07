@@ -18,8 +18,6 @@ comparison to installing any other Home Assistant add-on.
    [![Open this add-on in your Home Assistant instance.][addon-badge]][addon]
 
 1. Click the "Install" button to install the add-on.
-1. Set a `credential_secret`, which is used to encrypt sensitive data.
-   This is just a "password", which you should save in a secondary location.
 1. Start the "Node-RED" add-on.
 1. Check the logs of "Node-RED" to see if everything went well.
 1. Click on the "OPEN WEB UI" button to jump into Node-RED.
@@ -36,7 +34,6 @@ Example add-on configuration:
 
 ```yaml
 log_level: info
-credential_secret: KJHhfdhiFRENCKfsdfdsDHFHDJS
 http_node:
   username: MarryPoppins
   password: Supercalifragilisticexpialidocious
@@ -119,14 +116,24 @@ Sets one of the Node-RED themes. Currently available options:
 - `dark`
 - `dracula`
 - `espresso-libre`
+- `github-dark`
+- `github-dark-default`
+- `github-dark-dimmed`
 - `midnight-red`
 - `monoindustrial`
 - `monokai`
+- `monokai-dimmed`
+- `noctis`
 - `oceanic-next`
 - `oled`
+- `one-dark-pro`
+- `one-dark-pro-darker`
 - `solarized-dark`
 - `solarized-light`
 - `tokyo-night`
+- `tokyo-night-light`
+- `tokyo-night-storm`
+- `totallyinformation`
 - `zenburn`
 
 ### Option: `http_node`
@@ -197,15 +204,14 @@ on garbage collection in an effort to free unused memory.
 
 ## Configuration folder
 
-The addon will store most of its configuration in the `config/node-red` folder,
-including the `flows.json`. Please ensure this is included in your backup. It is
-also important to note that this will not be removed on uninstalling the addon.
+The addon will store most of its configuration in the Node-RED add-on
+configuration folder, including the `flows.json`.
 
 ## Time zone configuration
 
 The addon will use the configured time zone of the underlying operating system.
 If this is incorrect (for example with the Home Assistant Operating System it
-will be UTC), this can be configured in the `/config/node-red/settings.js` file.
+will be UTC), this can be configured in the `settings.js` file.
 
 To do so, open the file with a text editor and add the following above the
 `module.exports = {` line.
@@ -278,7 +284,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2023 Franck Nijhof
+Copyright (c) 2018-2024 Franck Nijhof
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

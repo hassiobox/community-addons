@@ -1,5 +1,5 @@
 name: Grafana
-version: 8.3.0
+version: 10.2.2
 slug: grafana
 description: The open platform for beautiful analytics and monitoring
 url: https://github.com/hassio-addons/addon-grafana
@@ -16,11 +16,12 @@ arch:
 - amd64
 - armv7
 map:
-- config
+- homeassistant_config
+- share
 - ssl
-watchdog: http://[HOST]:1337/api/health
 options:
   plugins: []
+  custom_plugins: []
   env_vars: []
   ssl: true
   certfile: fullchain.pem
@@ -33,6 +34,10 @@ schema:
   log_level: list(trace|debug|info|notice|warning|error|fatal)?
   plugins:
   - str
+  custom_plugins:
+  - name: str
+    url: str
+    unsigned: bool?
   certfile: str
   keyfile: str
   ssl: bool

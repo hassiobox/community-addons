@@ -1,7 +1,6 @@
 ## What’s changed
 
-Major upgrade due to a new base image. The add-on now runs on Alpine Linux 3.18, which ships with Python 3.11.
-
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/base Docker tag to v14 @renovate ([#256](https://github.com/hassio-addons/addon-appdaemon/pull/256))
+- ⬆️ Update Python to v3.11.9-r1 @renovate ([#348](https://github.com/hassio-addons/addon-appdaemon/pull/348))
+- ⬆️ Update Python to v3.11.10-r0 @renovate ([#349](https://github.com/hassio-addons/addon-appdaemon/pull/349))

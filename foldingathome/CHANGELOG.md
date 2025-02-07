@@ -2,11 +2,9 @@
 
 ## 🧰 Maintenance
 
-- Add Renovate for dependency management @frenck ([#57](https://github.com/hassio-addons/addon-foldingathome/pull/57))
+- 🎆 Updates maintenance/license year to 2024 @frenck ([#67](https://github.com/hassio-addons/addon-foldingathome/pull/67))
 
 ## ⬆️ Dependency updates
 
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.4 @renovate ([#58](https://github.com/hassio-addons/addon-foldingathome/pull/58))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.5 @renovate ([#60](https://github.com/hassio-addons/addon-foldingathome/pull/60))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.6 @renovate ([#61](https://github.com/hassio-addons/addon-foldingathome/pull/61))
-- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v6.2.7 @renovate ([#62](https://github.com/hassio-addons/addon-foldingathome/pull/62))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.0 @renovate ([#65](https://github.com/hassio-addons/addon-foldingathome/pull/65))
+- ⬆️ Update ghcr.io/hassio-addons/debian-base Docker tag to v7.3.1 @renovate ([#66](https://github.com/hassio-addons/addon-foldingathome/pull/66))
